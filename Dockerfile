@@ -1,5 +1,5 @@
 # Utilizar la imagen base de Node.js 14
-FROM senergy1
+FROM alp-senergy
 
 #RUN apk update && apk upgrade
 #RUN apk add npm
