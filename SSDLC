@@ -1,0 +1,96 @@
+SSDLC
+
+Evaluar la implementación de estas prácticas y recursos en cada fase del SSDLC proporcionará una visión más clara de si el diseño del proyecto sigue las buenas prácticas de seguridad establecidas. 
+
+Planificación del concepto:
+Buenas prácticas:
+Realizar un análisis de riesgos inicial.
+Definir los objetivos de seguridad.
+Establecer un plan de seguridad.
+Recursos:
+Análisis de riesgos.
+Documento de objetivos de seguridad.
+Plan de seguridad.
+
+NIST Cybersecurity Framework: Ofrece un marco de trabajo para la gestión de riesgos y la planificación de la seguridad.
+ISO/IEC 27001: Norma internacional para la gestión de la seguridad de la información.
+
+Definir los requisitos:
+
+
+Buenas prácticas:
+Identificar y documentar requisitos de seguridad.
+Realizar una evaluación de riesgos.
+Incorporar requisitos de privacidad y cumplimiento normativo.
+Recursos:
+Documento de requisitos de seguridad.
+Evaluación de riesgos.
+Documentación de cumplimiento normativo.
+OWASP Application Security Verification Standard: Proporciona requisitos de seguridad para aplicaciones web y servicios web.
+Common Criteria: Un estándar internacional para la evaluación de la seguridad de productos y sistemas de tecnologías de la información.
+El diseño:
+
+
+Buenas prácticas:
+Implementar controles de seguridad en el diseño.
+Aplicar principios de seguridad, como la minimización de la superficie de ataque.
+Utilizar la separación de privilegios.
+Recursos:
+Documento de diseño seguro.
+Herramientas de modelado de amenazas.
+Principios de seguridad aplicados al diseño.
+
+OWASP Application Security Architecture Cheat Sheet: Consejos para diseñar la arquitectura de aplicaciones de manera segura.
+Microsoft Security Development Lifecycle (SDL): Un conjunto de prácticas recomendadas para integrar la seguridad en el ciclo de vida del desarrollo.
+
+Fase del desarrollo y pruebas:
+
+
+Buenas prácticas:
+Incorporar pruebas de seguridad en todas las etapas del desarrollo.
+Utilizar análisis estático y dinámico de código.
+Realizar pruebas de penetración.
+Recursos:
+Herramientas de análisis estático y dinámico de código.
+Marco de pruebas de seguridad.
+Informes de pruebas de penetración.
+OWASP Testing Guide: Guía completa para realizar pruebas de seguridad en aplicaciones web.
+OWASP ZAP: Herramienta de prueba de seguridad de aplicaciones web
+
+La puesta en marcha:
+Buenas prácticas:
+Realizar pruebas finales antes del despliegue.
+Configurar de manera segura los entornos de producción.
+Implementar la gestión de identidades y accesos.
+Recursos:
+Documento de pruebas finales.
+Configuraciones seguras.
+Gestión de identidades y accesos implementada.
+CIS Benchmarks: Configuraciones seguras y directrices para diversas tecnologías.
+NIST SP 800-53: Controles y directrices de seguridad.
+Operaciones y mantenimiento:
+Buenas prácticas:
+Establecer un proceso de monitorización continua de la seguridad.
+Implementar parches y actualizaciones de seguridad de manera regular.
+Realizar evaluaciones periódicas de riesgos.
+Recursos:
+Herramientas de monitorización.
+Procedimientos de actualización.
+Informes de evaluaciones de riesgos.
+Security Onion: Plataforma de monitorización de seguridad.
+NVD - National Vulnerability Database: Base de datos de vulnerabilidades
+
+Disposición:
+
+
+Buenas prácticas:
+Planificar la disposición segura de datos y sistemas al final de su vida útil.
+Eliminar datos de manera segura.
+Cerrar cuentas y accesos.
+Recursos:
+Plan de disposición.
+Procedimientos de eliminación segura de datos.
+Documentación de cierre de cuentas y accesos.
+
+NIST SP 800-88: Pautas para la eliminación segura de datos.
+OWASP Application Decommissioning Cheat Sheet: Consejos para la eliminación segura de aplicaciones.
