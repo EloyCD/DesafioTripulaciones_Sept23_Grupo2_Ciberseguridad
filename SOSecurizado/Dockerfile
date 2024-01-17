@@ -5,7 +5,7 @@ SHELL ["/bin/sh", "-o", "pipefail", "-c"]
 
 #  Empleamos repositorios HTTPS para apk
 RUN echo "https://alpine.global.ssl.fastly.net/alpine/v$(cut -d . -f 1,2 < /etc/alpine-release)/main" > /etc/apk/repositories \
-        && echo "https://alpine.global.ssl.fastly.net/alpine/v$(cut -d . -f 1,2 < /etc/alpine-release)/community" >> /etc/apk/repositories
+	&& echo "https://alpine.global.ssl.fastly.net/alpine/v$(cut -d . -f 1,2 < /etc/alpine-release)/community" >> /etc/apk/repositories
 
 # Creamos un usuario por defecto
 ENV APP_USER=app
@@ -31,8 +31,8 @@ RUN adduser -s /bin/true -u 1000 -D -h $APP_DIR $APP_USER \
 
 # Si existen crontabs los eliminamos
 RUN rm -fr /var/spool/cron \
-        && rm -fr /etc/crontabs \
-        && rm -fr /etc/periodic
+	&& rm -fr /etc/crontabs \
+	&& rm -fr /etc/periodic
 
 # Eliminamos varios comandos de admin
 RUN find /sbin /usr/sbin \
@@ -41,8 +41,8 @@ RUN find /sbin /usr/sbin \
 
 # Suprimimos los permisos de lectura-excritura excepto /tmp/
 RUN find / -xdev -type d -perm +0002 -exec chmod o-w {} + \
-        && find / -xdev -type f -perm +0002 -exec chmod o-w {} + \
-        && chmod 777 /tmp/ \
+	&& find / -xdev -type f -perm +0002 -exec chmod o-w {} + \
+	&& chmod 777 /tmp/ \
   && chown $APP_USER:root /tmp/
 
 # Nos deshacemos todas las cuentas innecesarias menos app y root
