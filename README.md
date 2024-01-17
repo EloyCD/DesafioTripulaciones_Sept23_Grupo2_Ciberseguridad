@@ -1,32 +1,51 @@
-# DesafioTripulaciones_Sept23_Grupo2_Ciberseguridad
-
-● Entender el contexto global de la aplicación desde el punto de vista funcional y determinar cuáles 
-son las características que pueden ser más delicadas o sensibles de ser atacadas.
-
-● Realizar el hardening de los sistemas operativos y de los aplicativos necesarios para la realización 
-del proyecto.
-
-● Proponer la infraestructura necesaria para un futuro despliegue del proyecto y que sea jerarquizable, 
-modular y ampliable
-
-● Estudiar e implementar un sistema de backup, estrategía llevada a cabo, cálculos de costes , 
-periodos de conservación. Analizar la sensibilidad de los datos almacenados. 
-
-● Utilizar la metodología descrita en el OWASP Top 10 y definir cuestiones tan importantes como: - En 
-subequipos responsables de cada OWASP
-
-● Agentes maliciosos. Posibles vectores de ataque.
-
-● Análisis de los controles de seguridad que se han planteado en la etapa de diseño (si los hay).
-
-● Definición del impacto técnico y de negocio. Determinar si el diseño del proyecto sigue las buenas 
-prácticas definidas en el SSDLC. 
-
-● Ejecutar, durante el proceso de desarrollo y construcción, pruebas con herramientas de código 
-estático para detectar malas prácticas/vulnerabilidades en cada entrega parcial o sobre las ramas 
-que en un momento determinado se consideran “estables”. Posteriormente, aportar posibles 
-contramedidas o soluciones a los problemas detectados.
-
-● Realizar una pequeña auditoría con herramientas de pentesting al finalizar el desarrollo. Algo rápido 
-y sin entrar en el nivel de detalle que requiere una auditoría en condiciones pero que servirá para 
-encontrar los problemas más evidentes.
+ÍNDICE
+1. Finalidad del documento ................................................................................................... 3
+2. OSINT ............................................................................................................................... 4
+2.1 Finalidad del informe: .................................................................................................. 4
+2.2 Información del objetivo ............................................................................................... 4
+2.2.1 Introducción: ......................................................................................................... 4
+2.2.2 Contacto y redes sociales. .................................................................................... 4
+2.3 Información administrativa ........................................................................................... 5
+2.3.1 Datos fiscales........................................................................................................ 5
+2.3.2 Datos comerciales................................................................................................. 6
+2.4 Información técnica ..................................................................................................... 7
+2.4.1 Direcciones IP: .................................................................................................... 10
+2.4.2 Servidor: ............................................................................................................. 11
+2.5 Información corporativa ............................................................................................. 16
+2.5.1 Equipo directivo .................................................................................................. 16
+2.5.2 Personal de la empresa ...................................................................................... 16
+2.6 Recomendaciones ..................................................................................................... 16
+3. Reglamento General de Protección de Datos (RGPD) y Ley Orgánica de Protección de
+Datos y Garantía de los Derechos Digitales (LOPDGDD) ................................................... 17
+3.1 Introducción ............................................................................................................... 17
+3.2 Principios y Derechos del RGPD y LOPDGDD .......................................................... 17
+3.3 Responsabilidades y Consideraciones Específicas ................................................... 17
+3.4 Privacidad desde el Diseño ....................................................................................... 18
+3.5 Conclusión y Enfoque Centrado en el Sujeto de los Datos ........................................ 19
+4. SSDLC ............................................................................................................................ 20
+4.1 Planificación del Concepto ........................................................................................ 20
+4.2 Definición de Requisitos ............................................................................................ 20
+4.3 Diseño Seguro ........................................................................................................... 20
+4.4 Desarrollo y Pruebas ................................................................................................. 21
+4.5 Puesta en Marcha ..................................................................................................... 21
+4.6 Operaciones y Mantenimiento ................................................................................... 21
+4.7 Disposición ................................................................................................................ 21
+5. Dockerfile ........................................................................................................................ 23
+6. Agentes maliciosos ......................................................................................................... 27
+6.1 definición ................................................................................................................... 27
+7. OWASP .......................................................................................................................... 28
+7.1 Definición................................................................................................................... 28
+7.2 Control de acceso vulnerado. .................................................................................... 28
+7.3 Fallos criptográficos. .................................................................................................. 29
+7.4 Inyección ................................................................................................................... 30
+7.5 Diseño Inseguro ........................................................................................................ 30
+7.6 Configuración de Seguridad Incorrecta...................................................................... 32
+7.7 Componentes Vulnerables y Desactualizados ........................................................... 32
+7.8 Fallas de Identificación y Autenticación ..................................................................... 33
+7.9 Fallas en el Software y en la Integridad de los Datos ................................................ 34
+7.9 Fallas en el Registro y Monitoreo .............................................................................. 35
+7.10 Falsificación de Solicitudes del Lado del Servidor (SSRF) ....................................... 36
+8. Phishing .......................................................................................................................... 38
+8.1 Que es? ..................................................................................................................... 38
+8.2 Prevención ................................................................................................................ 38
+9. Conclusión ...................................................................................................................... 40
